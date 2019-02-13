@@ -1,0 +1,30 @@
+Feb 13, 2019 1:05:19 AM server.ServerImpl listItemAvailability
+INFO: Received a command to list all the items, managerId = CONM1
+Response: [common.Item@3bb8264e, common.Item@256768c2, common.Item@6caa48c, common.Item@349059a7, common.Item@4e60832d]
+Feb 13, 2019 1:05:19 AM server.ServerImpl listItemAvailability
+INFO: Received a command to list all the items, managerId = MCGM1
+Response: [common.Item@384971bf, common.Item@328c285a, common.Item@5cfb15ee, common.Item@3aa7d5b, common.Item@709d2018]
+Feb 13, 2019 1:05:19 AM server.ServerImpl listItemAvailability
+INFO: Received a command to list all the items, managerId = MONM1
+Response: [common.Item@66fb2115, common.Item@7137164f, common.Item@3208c0e3, common.Item@26f3d2b9, common.Item@19bfbcfb]
+Feb 13, 2019 1:05:19 AM server.ServerImpl showAllItems
+INFO: Received a command to list all the items from all the libraries
+Response: [common.Item@169d9ae0, common.Item@6f0b4b22, common.Item@50ddef2d, common.Item@70efb88, common.Item@7dbe2b13, common.Item@48593ddd, common.Item@77c2177c, common.Item@76070b7, common.Item@b8a25fb, common.Item@abc4682, common.Item@6da2d95e, common.Item@6943e995, common.Item@33bcacbb, common.Item@5b5c6418, common.Item@20cf3e04]
+Feb 13, 2019 1:05:31 AM server.ServerImpl borrowItem
+INFO: Received a command to borrow an item, userId = CONU0001; itemId = CON0004; numberOfDays = 3
+Response: true
+Feb 13, 2019 1:05:40 AM server.ServerImpl returnItem
+INFO: Received a command to return an item, userId = CONU0001; itemId = CON0004
+Response: true
+Feb 13, 2019 1:05:55 AM server.ServerImpl listItemAvailability
+INFO: Received a command to list all the items, managerId = CONM0002
+Response: [common.Item@3bb8264e, common.Item@256768c2, common.Item@6caa48c, common.Item@349059a7, common.Item@4e60832d]
+Feb 13, 2019 1:06:13 AM server.ServerImpl addItem
+INFO: Received a command to add an item, managerId = CONM0002; itemId = CON0005; itemName = The Divine Comedy by Dante Alighieri; quantity = 1
+Response: OK: Successfully added
+Feb 13, 2019 1:06:16 AM server.ServerImpl listItemAvailability
+INFO: Received a command to list all the items, managerId = CONM0002
+Response: [common.Item@3bb8264e, common.Item@256768c2, common.Item@6caa48c, common.Item@349059a7, common.Item@4e60832d]
+Feb 13, 2019 1:06:25 AM server.ServerImpl removeItem
+INFO: Received a command to remove an item, managerId = CONM0002; itemId = CON0005; quantity = -1
+Response: OK: Successfully removed all items

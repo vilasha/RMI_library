@@ -1,0 +1,36 @@
+Feb 13, 2019 1:05:18 AM client.StartClient start
+INFO: Received a command list
+Feb 13, 2019 1:05:19 AM client.StartClient start
+INFO: Server response: CON0001	Hamlet by William Shakespeare
+CON0004	One Hundred Years of Solitude by Gabriel Garcia Marquez
+CON0005	The Divine Comedy by Dante Alighieri
+CON0002	War and Peace by Leo Tolstoy
+CON0003	The Odyssey by Homer
+MCG0002	Don Quixote by Miguel de Cervantes
+MCG0001	Hamlet by William Shakespeare
+MCG0005	Moby Dick by Herman Melville
+MCG0004	The Great Gatsby by F. Scott Fitzgerald
+MCG0003	Ulysses by James Joyce
+MON0004	Madame Bovary by Gustave Flaubert
+MON0005	The Adventures of Huckleberry Finn by Mark Twain
+MON0001	Hamlet by William Shakespeare
+MON0002	The Divine Comedy by Dante Alighieri
+MON0003	The Brothers Karamazov by Fyodor Dostoyevsky
+
+Feb 13, 2019 1:05:31 AM client.StartClient start
+INFO: Received a command borrow (item id=CON0004; number of days=3)
+Feb 13, 2019 1:05:31 AM client.StartClient start
+INFO: Server response: true
+Feb 13, 2019 1:05:35 AM client.StartClient start
+INFO: Received a command my-books
+Feb 13, 2019 1:05:35 AM client.StartClient start
+INFO: Server response: CON0004
+
+Feb 13, 2019 1:05:40 AM client.StartClient start
+INFO: Received a command return (item id=CON0004)
+Feb 13, 2019 1:05:40 AM client.StartClient start
+INFO: Server response true
+Feb 13, 2019 1:05:43 AM client.StartClient start
+INFO: Received a command my-books
+Feb 13, 2019 1:05:43 AM client.StartClient start
+INFO: Server response: 

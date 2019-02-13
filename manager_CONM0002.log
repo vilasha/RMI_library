@@ -1,0 +1,26 @@
+Feb 13, 2019 1:05:55 AM client.StartManager start
+INFO: Received a command list
+Feb 13, 2019 1:05:55 AM client.StartManager start
+INFO: Server response: CON0001	Hamlet by William Shakespeare	1
+CON0004	One Hundred Years of Solitude by Gabriel Garcia Marquez	1
+CON0005	The Divine Comedy by Dante Alighieri	4
+CON0002	War and Peace by Leo Tolstoy	3
+CON0003	The Odyssey by Homer	2
+
+Feb 13, 2019 1:06:13 AM client.StartManager start
+INFO: Received a command add (item id=CON0005; item name=The Divine Comedy by Dante Alighieri; quantity=1)
+Feb 13, 2019 1:06:13 AM client.StartManager start
+INFO: Server response: OK: Successfully added
+Feb 13, 2019 1:06:16 AM client.StartManager start
+INFO: Received a command list
+Feb 13, 2019 1:06:16 AM client.StartManager start
+INFO: Server response: CON0001	Hamlet by William Shakespeare	1
+CON0004	One Hundred Years of Solitude by Gabriel Garcia Marquez	1
+CON0005	The Divine Comedy by Dante Alighieri	5
+CON0002	War and Peace by Leo Tolstoy	3
+CON0003	The Odyssey by Homer	2
+
+Feb 13, 2019 1:06:25 AM client.StartManager start
+INFO: Received a command remove (item id=CON0005; quantity=-1)
+Feb 13, 2019 1:06:25 AM client.StartManager start
+INFO: Server response: OK: Successfully removed all items
