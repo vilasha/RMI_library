@@ -15,7 +15,7 @@ Each server also maintains a **log file** containing the history of all the oper
 
 The information in a libraryare maintained in a hashmap. All information must be kept only in the library servers, not in the clients.
 
-##Manager Role: 
+## Manager Role: 
 The operations that can be performed by a manager are the following: 
 * **addItem (managerID, itemID, itemName, quantity)**:
 
@@ -31,7 +31,7 @@ When a manager invokes this method from his/her library through the associated s
 Eg: CON6231 Distributed Systems 5, CON6441 Advanced Programming 4, CON6491 Systems Software 0.
 
 
-##User Role
+## User Role
 The operations that can be performed by a user are the following: 
 
 * **borrowItem (userID, itemID, numberOfDays)** :
@@ -57,7 +57,7 @@ This is an application using Java RMI. Specifically, has been done the following
 
 You should design the server maximizing concurrency. In other words, use proper synchronization that allows multiple users to perform operations for the same or different records at the same time.
 
-##Execution
+## Execution
 1. First start server application
 2. Then one or more user applications
 3. And/or one or more manager application.
